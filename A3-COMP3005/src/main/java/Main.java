@@ -141,7 +141,6 @@ public class Main {
             pstmt.setString(1, first_name);
             pstmt.setString(2, last_name);
             pstmt.setString(3, email);
-
             pstmt.setDate(4, Date.valueOf(enrollment_date));
 
             //run the query
